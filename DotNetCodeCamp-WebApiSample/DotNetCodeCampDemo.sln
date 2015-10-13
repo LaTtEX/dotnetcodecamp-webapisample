@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIDemo", "WebAPIDemo\We
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIDemo.Tests", "WebAPIDemo.Tests\WebAPIDemo.Tests.csproj", "{39F400D2-D754-49EF-991F-DD107A9BB21E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sample Database", "Sample Database", "{1B08BFF7-ADCA-4BB7-AB79-F30C87AFDB7E}"
+	ProjectSection(SolutionItems) = preProject
+		DotNetCodeCampDB.dacpac = DotNetCodeCampDB.dacpac
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
